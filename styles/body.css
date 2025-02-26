@@ -6,10 +6,12 @@
     height: auto; 
     display: block; 
     object-fit: contain;
+    padding-right: -10;
 }
 .lance-text{
     height: auto;
-    max-height: 350px;
+    max-height: 500px;
     margin-top: 80px;
+    position: relative;
 }
 
