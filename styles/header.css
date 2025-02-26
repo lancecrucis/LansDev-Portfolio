@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: row;
     height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 /* left-section*/
@@ -11,6 +14,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+    flex-shrink: 0;
 }
 
 .left-container p{
@@ -26,23 +30,20 @@
 }
 /* End of left-section*/
 
-.middle-section{
-    flex: 1;
-}
 
 /* right-section*/
 .right-container{
     display: flex;
     flex-direction: row;
-    width: 25vw;
-    gap: 2vw;
+    width: auto;
     justify-content: center;
     align-items: center;
-    
+    flex-shrink: 0;
+    gap: 20px;
 }
 
 .buttons{
-    flex: 1;
+    width: 1fr;
     color: white;
     font-family: 'Poppins','Segoe UI','Roboto';
     font-weight: 600;
@@ -50,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
