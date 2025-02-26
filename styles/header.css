@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+}
+
+/* left-section*/
+.left-container{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container p{
+    font-family: 'Poppins','Segoe UI','Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: white
+}
+
+.left-container img{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+/* End of left-section*/
+
+.middle-section{
+    flex: 1;
+}
+
+/* right-section*/
+.right-container{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    gap: 25px;
+}
+
+.buttons{
+    flex: 1;
+    color: white;
+    font-family: 'Poppins','Segoe UI','Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

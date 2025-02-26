@@ -1,0 +1,16 @@
+body{
+   background-color: #1E1E1E;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-top: 0;
+}
+
+.background-gradient{
+    height: 1000px;
+    width: 1000px;
+    background-image: radial-gradient(closest-side, rgba(16, 50, 39, 1), #1E1E1E);
+    position: absolute;
+    top: -500px;
+    right: 60%;
+    z-index: -1;
+}
