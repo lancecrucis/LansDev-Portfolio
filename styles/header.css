@@ -10,8 +10,10 @@
     -webkit-backdrop-filter: (blur(10px));
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     position: fixed;
-    
-    width: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 /* left-section*/
@@ -22,7 +24,20 @@
     align-items: center;
     padding-right: 10px;
     flex-shrink: 0;
-    padding-right: 40px;
+    padding-right: 100px;
+    padding-left: 350px;
+}
+
+@media (max-width: 1200px){
+    .left-container{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1200px){
+    .right-container{
+        padding-right: 50px;
+    }
 }
 
 .left-container p{
@@ -48,7 +63,8 @@
     align-items: center;
     flex-shrink: 0;
     gap: 20px;
-    padding-right: 40px;
+    padding-right: 400px;
+    padding-left: 350px;
 }
 
 .buttons{
