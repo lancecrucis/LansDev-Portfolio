@@ -94,3 +94,65 @@
     padding-left: 150px;
     opacity: 90%;
 }
+.work-section{
+    font-family: 'Poppins','Segoe UI','Roboto';
+    font-weight: bold;
+    padding-top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-class{
+    font-size: 30px;
+    color: white;
+}
+.project-text{
+    color: #40CB95;
+}
+.work-containers{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.work-box{
+    height: 400px;
+    width: 285px;
+    background-color: #383838;
+    display: flex;
+    flex-direction: column;
+    border: #383838 solid 17px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.work-img{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.work-text{
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+    font-family:'Poppins','Segoe UI','Roboto'; ;
+  
+}
+.work-title{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins','Segoe UI','Roboto';
+    font-weight: 600;
+    padding-bottom: 5px; 
+    bottom: 0;
+}
+.work-canvas{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
