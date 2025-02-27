@@ -125,6 +125,36 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    position: relative;
+}
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.work-box::after, .work-box::before{
+
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), transparent 70%, #34b897);
+    padding: 20px;
+    z-index: -2;
+    border-radius: 10px;
+    animation: 5s spin linear infinite;
+}
+.work-box::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+@keyframes spin{
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
 }
 .work-img{
     padding-top: 5px;
