@@ -61,8 +61,8 @@
 .skill-box{
     background-color: #909492;
     border-radius: 100px;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,8 +75,8 @@
     justify-content: center;
 }
 .skill-image{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 .skill-name{    
     font-size: 12px;
@@ -165,22 +165,35 @@
     display: flex;
     justify-content: center;
     position: relative;
+    width: 100%;
+    overflow: hidden;
 }
+.work-img img {
+margin-right: 100px;
+}
+.work-img .img1 {
+    margin-right: -50px;
+    }
+
 .work-text{
     font-size: 14px;
     padding: 10px;
     color: white;
-    font-family:'Poppins','Segoe UI','Roboto'; ;
-  
+    font-family:'Poppins','Segoe UI','Roboto'; 
 }
 .work-title{
     position: absolute;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Poppins','Segoe UI','Roboto';
     font-weight: 600;
-    padding-bottom: 5px; 
     bottom: 0;
+    background-color: #383838;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 5px;
+    color: #3ada9c;
 }
 .work-canvas{
     display: flex;
