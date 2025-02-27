@@ -26,3 +26,6 @@ a {
 html {
     scroll-behavior: smooth;
 }
+#skills {
+    scroll-margin-top: 100px; 
+}
