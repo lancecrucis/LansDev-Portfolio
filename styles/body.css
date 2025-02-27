@@ -53,6 +53,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.2s;
+}
+.skills-container:hover{
+    transform: translateY(-16px)
 }
 .skill-box{
     background-color: #909492;
